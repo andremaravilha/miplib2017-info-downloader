@@ -1,0 +1,32 @@
+{
+  "name": "@andre.maravilha/miplib2017-info-downloader",
+  "version": "1.0.0",
+  "description": "A tiny app (and library) to obtain information from MIPLIB 2017 instances in an easy way.",
+  "author": "André L. Maravilha <andre.maravilha@outlook.com> (andremaravilha.github.io)",
+  "license": "MIT",
+  "keywords": [
+    "miplib",
+    "benchmark",
+    "mixed-integer-programming",
+    "optimization"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andremaravilha/miplib2017-info-downloader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andremaravilha/miplib2017-info-downloader/issues"
+  },
+  "homepage": "https://github.com/andremaravilha/miplib2017-info-downloader#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "miplib2017-downloader": "./bin/miplib2017-downloader.js"
+  },
+  "dependencies": {
+    "argparse": "^2.0.1",
+    "cheerio": "^1.0.0-rc.6"
+  }
+}
